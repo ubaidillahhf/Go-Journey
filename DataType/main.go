@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-	//Kalo di JS pake type untum log tipe data, di GO ada reflect.type()
-	"reflect"
-)
+//Kalo di JS pake type untum log tipe data, di GO ada reflect.type()
 
 /** Tipe Data di Go-Lang (So far mostly same with other language)
 ## [ NUMERIK ]
@@ -62,6 +58,5 @@ func main() {
 	coba := map[string]int{}
 	coba["satu"] = 9
 	// coba := [...]int{} => Array
-	fmt.Println("Tipe Data =>", reflect.TypeOf(coba), "|| VALUE =>", coba["satu"])
-
+	//return fmt.Println("Tipe Data =>", reflect.TypeOf(coba), "|| VALUE =>", coba["satu"])
 }
